@@ -19,12 +19,12 @@ public class Main {
         student.add(String.valueOf(new Student("Margherita", 23)));
         student.add(String.valueOf(new Student("Simone", 22)));
         System.out.println(student);
-        System.out.println(student);
 
         Collections.sort(student);
         for (String studente : student) {
             System.out.println(studente);
         }
+
 
     }
 }
