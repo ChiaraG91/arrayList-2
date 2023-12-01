@@ -22,8 +22,8 @@ public class Main {
         System.out.println(student);
 
         Collections.sort(student);
-        for (String i : student) {
-            System.out.println(i);
+        for (String studente : student) {
+            System.out.println(studente);
         }
 
     }
