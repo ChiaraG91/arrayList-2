@@ -1,5 +1,6 @@
 import java.util.ArrayList;
 import java.util.Collections;
+import java.util.Comparator;
 
 public class Main {
 
@@ -20,7 +21,7 @@ public class Main {
         student.add(String.valueOf(new Student("Simone", 22)));
         System.out.println(student);
 
-        Collections.sort(student);
+        student.sort(String.CASE_INSENSITIVE_ORDER);
         for (String studente : student) {
             System.out.println(studente);
         }
